@@ -21,15 +21,13 @@ for (i in 1:length(years)) {
   }
   
   flights.data <- read.csv(flights.file.name, header = TRUE, sep = ',')
-  airlines <- group_by(flights.data, UniqueCarrier)
+  airlines <- flights.data %>% 
+    group_by(UniqueCarrier) %>%
+    summarise(carrierRatio = (mean(CarrierDelay, na.rm = TRUE)/mean(ActualElapsedTime, na.rm = TRUE)),
+              year = year) %>%
+    merge(carriers, by.x = "UniqueCarrier", by.y = "Code")
   
-  airline.yearly.summary <-summarise(airlines,
-                                     carrierRatio = (mean(CarrierDelay, na.rm = TRUE)/mean(ActualElapsedTime, na.rm = TRUE)),
-                                     year = year)
-  
-  airline.yearly.summary <- merge(airline.yearly.summary, carriers, by.x = "UniqueCarrier", by.y = "Code")
-  
-  df <- rbind(df, airline.yearly.summary)
+  df <- rbind(df, airlines)
 }  
 
 print(df)
