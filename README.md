@@ -11,7 +11,7 @@ What percentage of flights were cancelled each year from 1999 to 2003?
 
 *Answer:*
 
- |year |cancelledPercentage
+ | year | cancelledPercentage
 -|-----|-------------------
 1|1999|4.974
 2|2000|4.826
@@ -27,7 +27,7 @@ For the years 2002 to 2005, what is the ratio of carrier delay to elapsed travel
 
 *Answer:*
 
- |UniqueCarrier|carrierRatio|year|Description
+ | UniqueCarrier | carrierRatio | year| Description
 -|-------------|------------|----|-----------
 1|AA|NaN|2002|American Airlines Inc.
 2|AS|NaN|2002|Alaska Airlines Inc.
@@ -109,7 +109,7 @@ output listing.
 
 *Answer:*
 
- |OriginIataCode|OriginCity|OriginAirport|DestIataCode|DestCity|DestAirport|WeatherDelayAvg
+ | OriginIataCode | OriginCity | OriginAirport | DestIataCode | DestCity | DestAirport | WeatherDelayAvg
 -|--------------|----------|-------------|------------|--------|-----------|---------------
 1|MSP|Minneapolis|Minneapolis-St Paul Intl|FCA|Kalispell|Glacier Park Intl|21.17647
 2|GRB|Green Bay|Austin Straubel International|MQT|<NA>|Marquette County Airport|20.48387
