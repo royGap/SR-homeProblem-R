@@ -127,5 +127,5 @@ output listing.
 ## Further Analysis
 
 - Top 10 airlines most likely to have a carrier delay of over 15 min from march to may, from 2003 to 2008?
-- Which is the airline that was increase the most its amonth of fligths from 1987 to 2008?
+- Which is the airline that increased the most its amount of flights from 1987 to 2008?
 
