@@ -114,13 +114,13 @@ output listing.
 |1|MSP|Minneapolis|Minneapolis-St Paul Intl|FCA|Kalispell|Glacier Park Intl|21.17647|
 |2|GRB|Green Bay|Austin Straubel International|MQT|<NA>|Marquette County Airport|20.48387|
 |3|LGA|New York|LaGuardia|SAV|Savannah|Savannah International|15.60674|
-|4|MEM|Memphis|Memphis International|SFO San Francisco|San Francisco International|15.00000|
+|4|MEM|Memphis|Memphis International|SFO|San Francisco|San Francisco International|15.00000|
 |5|CID|Cedar Rapids|Eastern Iowa|DEN|Denver|Denver Intl|12.97917|
 |6|JAC|Jackson|Jackson Hole|DEN|Denver|Denver Intl|12.90909|
-|7|LGA|New York|LaGuardia|PWM|Portland Portland International Jetport|12.43478|
-|8|BTR|Baton Rouge Baton Rouge Metropolitan, Ryan|LGA|New York|LaGuardia|12.34615|
+|7|LGA|New York|LaGuardia|PWM|Portland|Portland International Jetport|12.43478|
+|8|BTR|Baton Rouge|Baton Rouge Metropolitan, Ryan|LGA|New York|LaGuardia|12.34615|
 |9|LGA|New York|LaGuardia|TYS|Knoxville|McGhee-Tyson|12.30769|
-|10|BOS|Boston|Gen Edw L Logan Intl|JAX  Jacksonville|Jacksonville International\11.82258|
+|10|BOS|Boston|Gen Edw L Logan Intl|JAX|Jacksonville|Jacksonville International|11.82258|
 
 [File](weather_delay_dec_05.R)
 
